@@ -2,6 +2,12 @@
 
 Here is how to use a the Faclon-4B model from hugging face.
 
+## Setup
+For running this dataset localy you will only need to install `GPT4All`:
+```
+pip install GPT4All
+```
+
 ## Download of the Dataset
 Open this link to be able to start the download the dataset:
 
