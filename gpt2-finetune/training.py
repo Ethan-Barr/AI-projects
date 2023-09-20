@@ -24,11 +24,13 @@ with open(file_path, 'w') as f:
 
 
 
-
 # Load the pre-trained GPT-2 model and tokenizer
-model_name = "gpt2"
+model_name = "EleutherAI/gpt-neo-125m"
 tokenizer = GPT2Tokenizer.from_pretrained(model_name)
 model = GPT2LMHeadModel.from_pretrained(model_name)
+
+
+print("start")
 
 # Load and tokenize your fine-tuning dataset
 train_dataset = TextDataset(
